@@ -6,6 +6,14 @@ public_folder: /images
 publish_mode: editorial_workflow
 
 collections:
+  - name: "frontpage"
+    label: "Frontpage"
+    file: "site/content/index.yml"
+    fields:
+    - {label: Title, name: title, widget: string}
+    - {label: Intro, name: intro, widget: markdown}
+
+
   - name: "config"
     label: "Config"
     delete: false
