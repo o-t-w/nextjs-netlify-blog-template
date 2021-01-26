@@ -6,8 +6,8 @@ public_folder: /images
 publish_mode: editorial_workflow
 
 collections:
-  - label: "Page"
-    name: "page"
+  - label: "Pages"
+    name: "pages"
     files:
       - name: "frontpage"
         label: "Frontpage"
